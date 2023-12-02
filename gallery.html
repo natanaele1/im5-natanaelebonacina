@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Camera Redesign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="nav-branding">Camera Redesign</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="./wordscramble/wordscramble.html" class="nav-link">Quiz</a></li>
+        <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="./contactform/contactform.html" class="nav-link">Feedback</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+
+
+    <div class="container">
+      <div class="swiper">
+        <h1>Camera Interfaces</h1>
+        <p>Some example of the camera settings and OS that I will test during my research</p><br>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./img/blackmagic.jpg" alt="Description"></div>
+          <div class="swiper-slide"><img src="./img/sonyos.jpg" alt="Description"></div>
+          <div class="swiper-slide"><img src="./img/fujifilm.jpg" alt="Description"></div>
+          <div class="swiper-slide"><img src="./img/nikonos.jpg" alt="Description"></div>
+          <div class="swiper-slide"><img src="./img/panasonic.jpg" alt="Description"></div>
+          <div class="swiper-slide"><img src="./img/redmagic.jpg" alt="Description"></div>
+          <div class="swiper-slide"><img src="./img/canonos.jpg" alt="Description"></div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </div>
+
+
+  </main>
+  <footer class="footer-clean">
+    <div class="container">
+      <div class="row justify-content-center">
+        <p class="copyright">Natanaele Bonacina © 2023</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
+</body>
+
+</html>

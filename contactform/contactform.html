@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style_contactform.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="./contactform/style.css">
+
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="../index.html" class="nav-branding">Camera Redesign</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="./wordscramble/wordscramble.html" class="nav-link">Quiz</a></li>
+        <li class="nav-item"><a href="../gallery.html" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="contactform.html" class="nav-link">Feedback</a></li>
+
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrapper">
+      <h1>Leave Feedback to my Project</h1>
+      <form>
+        <div class="dbl-field">
+          <div class="field">
+            <input type="text" name="name" placeholder="Enter your name">
+            <i class='fas fa-user'></i>
+          </div>
+          <div class="field">
+            <input type="text" name="email" placeholder="Enter your email">
+            <i class='fas fa-envelope'></i>
+          </div>
+        </div>
+        <div class="message">
+          <textarea placeholder="Write your message" name="message"></textarea>
+          <i class="material-icons">message</i>
+        </div>
+        <div class="button-area">
+          <button type="submit">Send Message</button>
+          <span></span>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="footer-clean">
+    <div class="container">
+      <div class="row justify-content-center">
+        <p class="copyright">Natanaele Bonacina © 2023</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
