@@ -4,7 +4,7 @@ IM5 Projekt - https://camera.redesign.natanaele.ch/
 # Dokumentation
 
 Meine Bachelorarbeit befasst sich mit der Analyse und Neugestaltung von Kamera-Benutzeroberflächen für führende Marken (Canon, Sony, Nikon, etc.), um speziell auf die Bedürfnisse der Generation Z einzugehen. Dieses Projekt umfasst die Analyse bestehender UI/UX-Herausforderungen, die Durchführung von Umfragen und die Entwicklung innovativer Lösungen für eine intuitivere und benutzerfreundlichere Erfahrung. Die Ergebnisse werden in Form von Video-Mockups und Bildern präsentiert, wobei die erstellten Videos einen eindrucksvollen Einblick in die Funktionalität der vorgeschlagenen Schnittstellenverbesserungen geben.
-Ich habe HTML, CSS, JAVASCRIPT und PHP eingesetzt. Die Illustrationen, der Hintergrund und der Sucher wurden von mir in Illustrator erstellt.
+Ich habe HTML, CSS, JAVASCRIPT und PHP eingesetzt. Die Illustrationen, der Hintergrund und der Viewfinder wurden von mir in Illustrator erstellt.
 
 # Quiz
 Quiz von codingnepalweb übernommen und an meine Bedürfnisse angepasst, hier können Benutzer ihr Wissen zum Thema Kameras testen. 
