@@ -15,6 +15,11 @@ html {
 body {
    margin: auto;
    font-size: max(1rem, 16px);
+   background-image: url('./img/gradient.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
 }
 
 /* Heading styles */
@@ -58,15 +63,6 @@ nav ul {
 
 nav>ul {
    padding-left: 0;
-}
-
-/* Body background */
-body {
-   background-image: url('./img/gradient.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment: fixed;
 }
 
 /* Header styles */

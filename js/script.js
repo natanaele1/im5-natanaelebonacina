@@ -1,3 +1,6 @@
+    // Hamburger menu
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -11,7 +14,9 @@ hamburger.querySelectorAll(".nav-link").forEach(n => n.
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");  
 }))
- 
+
+
+    // Countdown
 
 var countDownDate = new Date("Feb 20, 2024 23:59:59").getTime();
 
